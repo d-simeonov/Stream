@@ -1,14 +1,24 @@
-## What is it?
+## What is this?
 
-Simple CRUD app solution to the "Test Task Back End - CRUD Laravel Standard MVC or REST
-API" task.
+A simple CRUD application implementing the "Test Task Back End - CRUD Laravel Standard MVC or REST API" challenge.
 
-UI portion of the solution was AI-generated to save time and some small changes were added.
-The project uses laravel breeze for authentication.
+The UI was generated with the help of AI and adjusted with a few manual refinements. Authentication is handled via
+Laravel Breeze.
 
-Project used sqlite database. Create database file in the database directory
-and run `php artisan migrate --seed` to re-create tables.
+## Setup
 
-Security points are covered using request validation and policy authorization.
+The project uses SQLite. To get started:
 
-Total time for creating the project was approximately 2.3 hours.
+1. Create an empty SQLite database file in the database/ directory (for example: database/database.sqlite).
+2. Run migrations and seed the database:
+   ```
+   php artisan migrate --seed
+   ```
+
+## Security
+
+Input validation and Laravel policy-based authorization are used to secure the application and enforce permissions.
+
+## Notes
+
+- Total development time for this project was approximately 2.3 hours.
