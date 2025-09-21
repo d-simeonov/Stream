@@ -39,7 +39,9 @@ class StreamApiController extends Controller
 
     public function store(StreamRequest $request)
     {
-        $stream = Stream::create($request->validated());
+        $data = $request->validated();
+        $data['user_id'] = $request->user()->id;
+        $stream = Stream::create($data);
         return new StreamResource($stream);
     }
 
