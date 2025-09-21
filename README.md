@@ -23,4 +23,4 @@ Input validation and Laravel policy-based authorization are used to secure the a
 
 ## Notes
 
-- Total development time for this project was approximately 2.3 hours.
+- Total development time for this project was approximately ~~2.3~~ 3.5 hours.
