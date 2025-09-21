@@ -13,6 +13,8 @@ The project uses SQLite. To get started:
 2. Run migrations and seed the database:
    ```
    php artisan migrate --seed
+   npm install
+   npm run dev
    ```
 
 ## Security
